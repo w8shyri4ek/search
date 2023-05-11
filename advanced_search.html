@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advansed search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="option">
+                    <li><a href="index.html">Google search</a></li>
+                    <li><a href="search_images.html">Search images</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <a href="index.html" class="logo-advanced"><img src="google.png" alt="Google" width="100"></a>
+            <h1>Advansed search</h1>
+            <span class="main_advanced">
+                <h2>Find pages</h2>
+                <span class="title">How it works in usual search</span>
+                <form action="https://www.google.com/search">
+                    <ul>
+                        <li class="search">
+                            <h3>all words:</h3>
+                            <input id="advanced_search" type="text" name="as_q">
+                            <span class="exp">Enter keywords: Ivan Fedorovich Kruzenshtern</span>
+                        </li>
+                        <li class="search">
+                            <h3>with the phrase:</h3>
+                            <input id="advanced_search" type="text" name="as_epg">
+                            <span class="exp">Put exact words in quotes: "book Ivan Kruzenshtern"</span>
+                        </li>
+                        <li class="search">
+                            <h3>with any of these words:</h3>
+                            <input id="advanced_search" type="text" name="as_eq">
+                            <span class="exp">Insert an OR operator between the words: man OR steamboat</span>
+                        </li>
+                        <li class="search">
+                            <h3>without words:</h3>
+                            <input id="advanced_search" type="text" name="as_oq">
+                            <span class="exp">Put a minus sign before the words: -steamboat, - "book about the steamboat"</span>
+                        </li>
+                    </ul>
+                    <input id="buttonAS" type="submit" value="Advanced search">
+                </form>
+            </span>
+        </main>
+    </body>
+</html>
